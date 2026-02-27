@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jo Choi — Projects</title>
+  <link rel="stylesheet" href="https://pages-themes.github.io/minimal/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="assets/img/profile.JPEG" alt="Jo Choi" class="profile-img"
+           onerror="this.onerror=null; this.src='assets/img/profile.svg';">
+      <h1><a href="index.html">Jo Choi</a></h1>
+      <p data-i18n-html="sidebar.tagline">🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: Efficient AI Systems + Digital Hardware Design</p>
+
+      <button id="dark-mode-toggle" class="dark-toggle" title="Toggle dark mode">
+        <span id="toggle-icon">🌙</span>
+      </button>
+      <button id="lang-toggle" class="lang-toggle" title="Toggle language">한</button>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about">About Me</a>
+        <a href="bio.html" class="nav-link" data-i18n="nav.bio">Bio</a>
+        <a href="projects.html" class="nav-link active" data-i18n="nav.projects">Projects</a>
+        <a href="others.html" class="nav-link" data-i18n="nav.others">Others</a>
+      </nav>
+
+      <hr>
+
+      <p class="view" style="font-weight: 600; margin-bottom: 4px;" data-i18n="sidebar.resumes">📄 Resumes</p>
+      <p class="view">
+        <a href="assets/docs/Jo_Choi_Resume_AI.pdf" target="_blank" data-i18n="sidebar.resume-ai">Download Resume (AI)</a><br>
+        <a href="assets/docs/Jo_Choi_Resume_EE.pdf" target="_blank" data-i18n="sidebar.resume-ee">Download Resume (EE)</a>
+      </p>
+
+      <hr>
+
+      <p class="view">
+        <a href="https://github.com/TechJoe96">GitHub: TechJoe96</a><br>
+        <a href="https://www.linkedin.com/in/youngjo-choi-477787263/">LinkedIn</a><br>
+        <a href="mailto:yc7330@nyu.edu">yc7330@nyu.edu</a>
+      </p>
+    </header>
+
+    <section>
+      <h1 data-i18n="proj.title">Projects</h1>
+
+      <nav class="toc">
+        <a href="#ai-ml" data-i18n="proj.toc-ai">AI / Machine Learning</a>
+        <a href="#hw" data-i18n="proj.toc-hw">Hardware / Chip Design</a>
+      </nav>
+
+      <hr>
+
+      <h2 id="ai-ml" data-i18n="proj.ai-heading">AI / Machine Learning</h2>
+
+      <div class="project-card">
+        <h3><a href="#" class="project-detail-link" data-project="gaze-heatmap" data-i18n="proj.gaze-title">Multimodal Gaze Heatmap Prediction from Egocentric Video</a></h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Spring 2026</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.gaze-1">Predict where a person is looking (gaze heatmap) from egocentric cooking video frames and audio using a lightweight multimodal deep learning model designed for mobile deployment</li>
+          <li data-i18n="proj.gaze-2">Built a compact 3.4M-parameter FiLM-based fusion model in PyTorch (~13 MB, ~2 GFLOPs, ~40ms CPU latency), trained on 110K+ samples from EGTEA Gaze+, achieving 7.94 px mean gaze prediction error on a 56×56 heatmap grid</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">PyTorch</span>
+          <span class="tag">ResNet-18</span>
+          <span class="tag">FiLM</span>
+          <span class="tag">Multimodal AI</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Audio Processing</span>
+          <span class="tag">Egocentric Vision</span>
+          <span class="tag">Gaze Prediction</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3><a href="#" class="project-detail-link" data-project="vlm-sparse" data-i18n="proj.vlm-title">Efficient Vision-Language Model (VLM) Design with Sparse Techniques</a></h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2025</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.vlm-1">Reproduced SparseVLM on LLaVA-1.5-7B, reducing visual tokens by 30% with minimal accuracy loss</li>
+          <li data-i18n="proj.vlm-2">Outperformed three weight-pruning baselines on 500 VQAv2 samples</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">PyTorch</span>
+          <span class="tag">Vision Transformer</span>
+          <span class="tag">LLM</span>
+          <span class="tag">SparseVLM</span>
+          <span class="tag">LLaVA-1.5-7B</span>
+          <span class="tag">VQAv2</span>
+          <span class="tag">Multimodal AI</span>
+          <span class="tag">Google Colab</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3><a href="#" class="project-detail-link" data-project="prof-eval" data-i18n="proj.prof-title">Gender Bias &amp; Rating Prediction in Higher Education Evaluations</a></h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2024</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.prof-1">Analyzed 90K professor records to assess gender bias in student evaluations using nonparametric testing and bootstrap effect size estimation</li>
+          <li data-i18n="proj.prof-2">Built Ridge regression and logistic regression pipelines achieving R² = 0.53 for rating prediction and ROC AUC = 0.77 for classification</li>
+          <li data-i18n="proj.prof-3">Found statistically significant but practically small gender bias in ratings, with teaching-style tags being the strongest predictors of professor evaluations</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">SciPy</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag">Data Science</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj.sales-title">Sales Forecasting Model</h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> June 2024 – August 2024</div>
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> C&amp;B Trading (Internship), Seoul, Korea</div>
+        </div>
+        <ul>
+          <li data-i18n-html="proj.sales-1">Built a predictive model that improved sales forecast accuracy to <strong>90%</strong></li>
+          <li data-i18n="proj.sales-2">Created Excel reports and PowerBI dashboards for senior management</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">PowerBI</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj.mouse-title">Mouse Motion Tracker using Deep Learning</h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> September 2023 – May 2024</div>
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> Illinois Institute of Technology, under Prof. Yan Yan</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.mouse-1">Developed an RNN-based multimodal system using visual and audio data</li>
+          <li data-i18n-html="proj.mouse-2">Recognized six mouse behaviors with <strong>90% accuracy</strong></li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">RNN</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Multimodal AI</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Audio Processing</span>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2 id="hw" data-i18n="proj.hw-heading">Hardware / Chip Design</h2>
+
+      <div class="project-card">
+        <h3 data-i18n="proj.soc-title">OpenPOWER SoC Design with Microwatt CPU and Neural Network Accelerator</h3>
+        <a href="https://github.com/TechJoe96/OpenPOWER-HW-Design" target="_blank" class="repo-btn">&#9679; GitHub Repo</a>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2025</div>
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> NYU</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.soc-1">Designing a Quantized Neural Net Accelerator with the Microwatt OpenPOWER CPU on SKY130 process</li>
+          <li data-i18n="proj.soc-2">Enabling efficient ML inference via memory-mapped I/O and custom instruction paths</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">RTL</span>
+          <span class="tag">Verification</span>
+          <span class="tag">Verilog</span>
+          <span class="tag">FPGA</span>
+          <span class="tag">ASIC</span>
+          <span class="tag">Systolic Array</span>
+          <span class="tag">AI accelerator</span>
+          <span class="tag">SKY130</span>
+          <span class="tag">Memory-Mapped I/O</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj.nano-title">Superconducting Nanoribbon Device Fabrication</h3>
+        <div class="project-meta">
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> March 2025 – August 2025</div>
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> NYU Nano Lab, under Prof. Davood Shahrjerdi</div>
+        </div>
+        <ul>
+          <li data-i18n="proj.nano-1">Developed superconducting nanoribbon wires on hBN substrate</li>
+          <li data-i18n="proj.nano-2">Engineered recipes for E-beam lithography, Deep Reactive-Ion Etching, and Buffered Oxide Etching in a cleanroom environment</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tag">E-beam Lithography</span>
+          <span class="tag">DRIE</span>
+          <span class="tag">Nanofabrication</span>
+          <span class="tag">Cleanroom</span>
+          <span class="tag">hBN Substrate</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p><small data-i18n-html="footer">&copy; 2026 Jo Choi. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</small></p>
+  </footer>
+
+  <!-- Project detail modal -->
+  <div id="project-modal" class="travel-modal" style="display:none;">
+    <div class="travel-modal-content course-modal-content">
+      <span class="travel-modal-close project-modal-close">&times;</span>
+      <h3 id="project-modal-title"></h3>
+      <div id="project-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <script>
+    const projectDetails = {
+      'gaze-heatmap': {
+        title: 'Multimodal Gaze Heatmap Prediction from Egocentric Video',
+        body: '<ul>' +
+            '<li>Built an end-to-end deep learning pipeline in PyTorch that predicts where a person is looking (gaze heatmap) from egocentric cooking video frames and synchronized audio</li>' +
+            '<li>Designed a multimodal architecture (3.4M parameters) combining a pretrained ResNet-18 vision encoder with a 3-layer audio CNN, fused via Feature-wise Linear Modulation (FiLM), and decoded into 56×56 gaze probability maps</li>' +
+            '<li>Developed a custom dataset loader for the EGTEA Gaze+ dataset (110K+ training samples across 8,000+ video clips), including parsing BeGaze eye-tracker exports and mapping global session-level gaze coordinates to local clip frames</li>' +
+            '<li>Implemented audio preprocessing with ffmpeg-based extraction from .mp4 containers, 16kHz resampling, and log-mel spectrogram generation (80 mel bins)</li>' +
+            '<li>Created a comprehensive evaluation framework with pixel distance error, correlation coefficient, similarity metric, KL divergence, and temporal stability analysis</li>' +
+            '<li>Achieved ~2 GFLOPs per inference at ~40ms latency on CPU with a <strong>13 MB model footprint</strong></li>' +
+          '</ul>',
+      },
+      'prof-eval': {
+        title: 'Gender Bias & Rating Prediction in Higher Education Evaluations',
+        body: '<p>Conducted a comprehensive analysis of 89,893 professor records from RateMyProfessors to investigate gender bias in student evaluations and build predictive models for professor ratings.</p>' +
+          '<ul>' +
+            '<li>Performed nonparametric statistical testing (Mann-Whitney U, Levene\'s) with bootstrap confidence intervals to quantify gender differences in ratings, difficulty, and 20 teaching-style tags at α = 0.005</li>' +
+            '<li>Engineered normalized tag-rate features to control for professor popularity confounds, improving model interpretability</li>' +
+            '<li>Built Ridge regression pipelines with median imputation and standard scaling, achieving <strong>R² = 0.47</strong> (tags) and <strong>R² = 0.53</strong> (combined features) for predicting average ratings</li>' +
+            '<li>Developed a balanced logistic regression classifier for professor attractiveness prediction with <strong>ROC AUC of 0.77</strong>, using stratified sampling to address class imbalance</li>' +
+            '<li>Explored geographic and disciplinary variation across US states, 100+ universities, and academic fields, revealing a negative correlation between perceived difficulty and ratings at the field level</li>' +
+          '</ul>',
+      },
+      'vlm-sparse': {
+        title: 'Efficient Vision-Language Model (VLM) Design with Sparse Techniques',
+        body: '<p>Reproduced SparseVLM text-guided visual token sparsification on LLaVA-1.5-7B, reducing visual tokens by 30% (576 → 403) with only 7.2% accuracy loss and 2.2% latency improvement, outperforming three weight-pruning baselines on 500 VQAv2 samples.</p>' +
+          '<ul>' +
+            '<li>Reproduced SparseVLM, a text-guided visual token sparsification method, on <strong>LLaVA-1.5-7B</strong> (7B-parameter vision-language model) using the VQAv2 dataset (500 samples)</li>' +
+            '<li>Implemented cross-attention scoring to dynamically select the most question-relevant image patches, <strong>reducing visual tokens by 30%</strong> (576 → 403) while retaining 51.2% accuracy (vs. 58.4% baseline)</li>' +
+            '<li>Benchmarked against three pruning baselines: unstructured (58.0% accuracy, 0% speedup), kernel (0% accuracy), and filter pruning (0.2% accuracy), demonstrating SparseVLM as the only method achieving meaningful <strong>latency reduction (2.2%)</strong> without catastrophic accuracy loss</li>' +
+            '<li>Built end-to-end evaluation pipeline in PyTorch covering model loading, pruning sweeps at 5–30% sparsity, token selection visualization, and automated metrics computation on Google Colab (A100 GPU)</li>' +
+          '</ul>',
+      },
+    };
+
+    document.querySelectorAll('.project-detail-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const projId = link.getAttribute('data-project');
+        const proj = projectDetails[projId];
+        if (!proj) return;
+        document.getElementById('project-modal-title').textContent = proj.title;
+        document.getElementById('project-modal-body').innerHTML = proj.body;
+        document.getElementById('project-modal').style.display = 'flex';
+      });
+    });
+
+    document.querySelector('.project-modal-close').addEventListener('click', () => {
+      document.getElementById('project-modal').style.display = 'none';
+    });
+    document.getElementById('project-modal').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.style.display = 'none';
+    });
+  </script>
+</body>
+</html>

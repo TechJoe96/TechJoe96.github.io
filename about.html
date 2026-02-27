@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jo Choi — About Me</title>
+  <link rel="stylesheet" href="https://pages-themes.github.io/minimal/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="assets/img/profile.JPEG" alt="Jo Choi" class="profile-img"
+           onerror="this.onerror=null; this.src='assets/img/profile.svg';">
+      <h1><a href="index.html">Jo Choi</a></h1>
+      <p data-i18n-html="sidebar.tagline">🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: Efficient AI Systems + Digital Hardware Design</p>
+
+      <button id="dark-mode-toggle" class="dark-toggle" title="Toggle dark mode">
+        <span id="toggle-icon">🌙</span>
+      </button>
+      <button id="lang-toggle" class="lang-toggle" title="Toggle language">한</button>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="about.html" class="nav-link active" data-i18n="nav.about">About Me</a>
+        <a href="bio.html" class="nav-link" data-i18n="nav.bio">Bio</a>
+        <a href="projects.html" class="nav-link" data-i18n="nav.projects">Projects</a>
+        <a href="others.html" class="nav-link" data-i18n="nav.others">Others</a>
+      </nav>
+
+      <hr>
+
+      <p class="view" style="font-weight: 600; margin-bottom: 4px;" data-i18n="sidebar.resumes">📄 Resumes</p>
+      <p class="view">
+        <a href="assets/docs/Jo_Choi_Resume_AI.pdf" target="_blank" data-i18n="sidebar.resume-ai">Download Resume (AI)</a><br>
+        <a href="assets/docs/Jo_Choi_Resume_EE.pdf" target="_blank" data-i18n="sidebar.resume-ee">Download Resume (EE)</a>
+      </p>
+
+      <hr>
+
+      <p class="view">
+        <a href="https://github.com/TechJoe96">GitHub: TechJoe96</a><br>
+        <a href="https://www.linkedin.com/in/youngjo-choi-477787263/">LinkedIn</a><br>
+        <a href="mailto:yc7330@nyu.edu">yc7330@nyu.edu</a>
+      </p>
+    </header>
+
+    <section>
+      <h1 data-i18n="about.title">About Me</h1>
+
+      <hr>
+
+      <!-- Background & Passion -->
+      <div class="section-block">
+        <h2 data-i18n="about.journey-title">🌏 My Journey</h2>
+        <p data-i18n-html="about.journey-p1">I grew up in Seoul, Korea, surrounded by the fast-paced energy of one of the world's most tech-driven cities. In 2022, I made the leap across the Pacific to Chicago, where I pursued a dual degree in Computer Engineering at Illinois Institute of Technology. Two years later, I moved to New York City to begin my M.S. at NYU Tandon — and I've been thriving in the city's electric energy ever since.</p>
+
+        <p data-i18n-html="about.journey-p2">My academic passion lies at the intersection of <strong>efficient AI</strong> and <strong>digital hardware design</strong>. I believe the next frontier isn't just about building bigger models — it's about making them leaner, faster, and more accessible. From designing sparse Vision-Language Models to building neural network accelerators on FPGA/ASIC platforms, I'm driven by the challenge of co-optimizing across the full stack, from algorithms down to silicon.</p>
+      </div>
+
+      <hr>
+
+      <!-- Personal Side -->
+      <div class="section-block">
+        <h2 data-i18n="about.beyond-title">🤝 Beyond the Lab</h2>
+        <p data-i18n-html="about.beyond-p1">Engineering is what I do, but connecting with people is who I am. At Illinois Tech, I founded the <strong>Korean Student Association</strong> from scratch — rallying students, organizing cultural events, and building a community that didn't exist before. I also joined <strong>Triangle Fraternity</strong>, where I learned as much about leadership and teamwork as I did about engineering.</p>
+
+        <p data-i18n-html="about.beyond-p2">Whether it's rallying a student org, collaborating on a group project, or just grabbing coffee with a new friend, I thrive on bringing people together and making things happen.</p>
+      </div>
+
+      <hr>
+
+      <!-- Fun Facts & Interests -->
+      <div class="section-block">
+        <h2 data-i18n="about.fun-title">⚡ Fun Facts</h2>
+
+        <blockquote class="fun-quote" data-i18n="about.fun-quote">
+          ☕ "Yes, I'm a certified barista, professionally caffeinated."
+        </blockquote>
+
+        <p data-i18n="about.fun-cappuccino">My go-to is a good cappuccino — and yes, I can make one from scratch.</p>
+
+        <p data-i18n-html="about.fun-sports">Outside of work, I'm a big <strong>soccer</strong> fan and love <strong>working out</strong>. Staying active keeps my mind sharp and my energy up! It's how I recharge between debugging sessions and hardware simulations.</p>
+      </div>
+
+      <hr>
+
+      <!-- Travel -->
+      <div class="section-block">
+        <h2 data-i18n="about.travel-title">✈️ Travel</h2>
+        <p data-i18n="about.travel-intro">I love discovering new places, immersing myself in different cultures, and seeing the world from new perspectives.
+          Here's a glimpse of the places I've explored so far:</p>
+
+        <div class="travel-timeline-container">
+          <div class="travel-timeline">
+
+            <div class="travel-item" data-trip="01-LA_Seattle_Vancouver_Banff">
+              <div class="travel-date">Jan 2015</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">LA → Seattle → Vancouver → Banff</div>
+            </div>
+
+            <div class="travel-item" data-trip="02-Osaka">
+              <div class="travel-date">Jun 2016</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Osaka → Kyoto → Nara</div>
+            </div>
+
+            <div class="travel-item" data-trip="03-Chicago_DC_Philadelphia_NYC_Boston">
+              <div class="travel-date">Jul 2016</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Chicago → D.C. → Philadelphia → New York → Boston</div>
+            </div>
+
+            <div class="travel-item" data-trip="04-London_Barcelona_Venice_Rome">
+              <div class="travel-date">Jan 2017</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">London → Barcelona → Venice → Rome</div>
+            </div>
+
+            <div class="travel-item" data-trip="05-Tokyo">
+              <div class="travel-date">Jun 2017</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Tokyo</div>
+            </div>
+
+            <div class="travel-item" data-trip="06-Osaka_Tokyo">
+              <div class="travel-date">Jun 2018</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Osaka → Tokyo</div>
+            </div>
+
+            <div class="travel-item" data-trip="07-Osaka_Sapporo">
+              <div class="travel-date">Dec 2018</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Osaka → Kobe → Kyoto → Sapporo</div>
+            </div>
+
+            <div class="travel-item" data-trip="08-LA">
+              <div class="travel-date">Feb 2020</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">LA</div>
+            </div>
+
+            <div class="travel-item travel-milestone" data-trip="moved-Chicago">
+              <div class="travel-date">2022</div>
+              <div class="travel-dot milestone-dot"></div>
+              <div class="travel-location">📦 Moved to Chicago</div>
+            </div>
+
+            <div class="travel-item" data-trip="09-NYC">
+              <div class="travel-date">Dec 2022</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">NYC</div>
+            </div>
+
+            <div class="travel-item" data-trip="10-Hawaii_Seattle">
+              <div class="travel-date">Aug 2023</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Hawaii → Seattle</div>
+            </div>
+
+            <div class="travel-item" data-trip="11-Atlanta_Miami">
+              <div class="travel-date">Dec 2023</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Atlanta → Miami</div>
+            </div>
+
+            <div class="travel-item" data-trip="12-LA_OrangeCounty_SanDiego">
+              <div class="travel-date">Mar 2024</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">LA → Orange County → San Diego</div>
+            </div>
+
+            <div class="travel-item" data-trip="13-Indiana">
+              <div class="travel-date">Apr 2024</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Indiana</div>
+            </div>
+
+            <div class="travel-item" data-trip="14-SanFrancisco_BayArea">
+              <div class="travel-date">May 2024</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">San Francisco / Bay Area</div>
+            </div>
+
+            <div class="travel-item" data-trip="15-Tokyo">
+              <div class="travel-date">Aug 2024</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Toyko</div>
+            </div>
+
+            <div class="travel-item travel-milestone">
+              <div class="travel-date">2024</div>
+              <div class="travel-dot milestone-dot"></div>
+              <div class="travel-location">📦 Moved to New York</div>
+            </div>
+
+            <div class="travel-item" data-trip="16-Boston">
+              <div class="travel-date">Sep 2024</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Boston</div>
+            </div>
+
+            <div class="travel-item" data-trip="17-Chicago_Philadelphia">
+              <div class="travel-date">Aug 2025</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Chicago → Philadelphia</div>
+            </div>
+
+            <div class="travel-item" data-trip="18-Pittsburgh">
+              <div class="travel-date">Sep 2025</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Pittsburgh</div>
+            </div>
+
+            <div class="travel-item" data-trip="19-Fukuoka_Osaka_Kyoto_Tokyo_Yokohama_Narita">
+              <div class="travel-date">Dec 2025</div>
+              <div class="travel-dot"></div>
+              <div class="travel-location">Fukuoka → Osaka → Kyoto → Tokyo → Yokohama → Narita</div>
+            </div>
+
+          </div>
+        </div>
+
+        <p class="travel-hint" data-i18n="about.travel-hint">💡 Click on a trip to add photos later!</p>
+
+        <!-- Slideshow modal -->
+        <div id="travel-modal" class="travel-modal" style="display:none;">
+          <div class="travel-modal-content">
+            <span class="travel-modal-close">&times;</span>
+            <h3 id="modal-trip-title"></h3>
+            <div id="modal-slideshow" class="modal-slideshow">
+              <p class="modal-placeholder">📸 Add your travel photos to <code>assets/img/travel/{trip-name}/</code> to display them here!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <p><small data-i18n-html="footer">&copy; 2026 Jo Choi. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</small></p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <script>
+    // === TRAVEL PHOTO & AUDIO CONFIG ===
+    const travelPhotos = {
+      '01-LA_Seattle_Vancouver_Banff': [],
+      '02-Osaka': ["Nara.jpg"],
+      '03-Chicago_DC_Philadelphia_NYC_Boston': ["Chicago1.JPG", "Chicago2.jpg", "Chicago3.jpg", "DC.JPG", "Philly1.JPG", "Philly2.jpg",
+                                              "NY1.jpg", "NY2.JPG", "NY3.jpg", "NY4.jpg", "Boston1.JPG", "Boston2.jpg"],
+      '04-London_Barcelona_Venice_Rome': ["London1.JPG", "Barcelona.JPG", "Venice1.jpg", "Venice2.JPG", "Rome1.JPG"],
+      '05-Tokyo': ["Toyko1.jpg", "Toyko2.jpg", "Toyko3.jpg", "Toyko4.jpg", "Toyko5.jpg", "Toyko6.jpg"],
+      '06-Osaka_Tokyo': ["Osaka1.jpg", "Osaka2.jpg", "Osaka3.jpg", "Tokyo1.jpg", "Tokyo2.jpg", "Tokyo3.jpg"],
+      '07-Osaka_Sapporo': ["Osaka.JPG", "Osaka1.jpg", "Osaka2.jpg", "Osaka3.jpg", "Kobe1.jpg", "Kobe2.JPG", "Kobe3.JPG", "Kyoto1.jpg", "Sapporo1.jpg", "Sapporo2.jpg", "Sapporo3.jpg"],
+      '08-LA': ["LA1.jpg", "LA2.jpg", "LA3.jpg", "LA4.jpg", "LA5.jpg", "LA6.jpg", "LA7.jpg", "LA8.jpg", "LA9.jpg", "LA10.jpg",
+                "LA11.jpg", "LA12.jpg", "LA13.jpg", "LA14.jpg"],
+      'moved-Chicago': ["Chicago1.jpeg", "Chicago2.jpeg", "Chicago3.jpeg"],
+      '09-NYC': ["NY1.jpeg", "NY2.jpeg", "NY3.jpeg", "NY4.jpeg", "NY5.jpeg", "NY6.jpeg", "NY7.jpeg", "NY8.jpeg", "NY9.jpeg",
+                 "NY10.jpeg", "NY11.jpeg"],
+      '10-Hawaii_Seattle': ["Hawaii1.JPG", "Hawaii2.mov", "Hawaii3.jpeg", "Hawaii4.jpeg", "Hawaii5.jpeg", "Hawaii6.JPG",
+                            "Seattle1.jpeg", "Seattle2.jpeg", "Seattle3.jpeg"],
+      '11-Atlanta_Miami': ["ATL.jpeg", "Miami1.jpeg", "Miami2.jpeg", "Miami3.jpeg", "Miami4.JPG", "Miami5.jpeg",
+                          "Miami6.jpeg", "Miami7.jpg", "Miami8.jpeg"],
+      '12-LA_OrangeCounty_SanDiego': ["LA1.jpeg", "LA2.jpeg", "LA3.jpeg", "OC1.jpeg", "OC2.jpeg", "Joshua Tree.jpeg",
+                                      "SD1.JPG", "SD2.jpeg", "SD3.jpeg"],
+      '13-Indiana': ["Indiana1.jpeg", "Indiana2.jpeg"],
+      '14-SanFrancisco_BayArea': ["SF1.jpeg", "SF2.MOV", "SF3.jpeg", "SF4.jpeg", "SF5.jpeg", "SF6.jpeg",
+                                  "Bay1.jpeg", "Bay2.JPG", "Bay3.jpeg", "Bay4.jpeg", "SF7.jpeg"],
+      '15-Tokyo': ["Tokyo1.jpeg", "Tokyo2.jpeg", "Tokyo3.jpeg", "Tokyo4.jpeg", "Tokyo5.jpeg", "Tokyo6.jpeg", "Tokyo7.jpeg",
+                    "Tokyo8.jpeg", "Tokyo9.jpeg", "Tokyo10.jpeg", "Tokyo11.jpeg", "Tokyo12.jpeg",
+                    "Tokyo13.jpeg", "Tokyo14.jpeg", "Tokyo15.jpeg"],
+      '16-Boston': ["Boston1.HEIC"],
+      '17-Chicago_Philadelphia': ['Chicago1.JPG', 'Chicago2.JPG', 'Chicago3.MOV', 'Philly1.HEIC', 'Philly2.JPG'],
+      '18-Pittsburgh': ["Pitt1.HEIC"],
+      '19-Fukuoka_Osaka_Kyoto_Tokyo_Yokohama_Narita': ["Fukuoka1.HEIC", "Fukuoka2.HEIC", "Osaka1.HEIC", "Osaka2.HEIC", "Osaka3.HEIC",
+                                                      "Kyoto1.HEIC", "Kyoto2.HEIC", "Kyoto3.HEIC",
+                                                      "Tokyo1.HEIC", "Tokyo2.HEIC", "Tokyo3.HEIC", "Tokyo4.HEIC", "Tokyo5.HEIC",
+                                                      "Tokyo6.HEIC", "Tokyo7.HEIC",
+                                                      "Yokohama1.HEIC", "Yokohama2.HEIC", "Narita.HEIC"],
+    };
+
+    const travelSpotify = {
+      '01-LA_Seattle_Vancouver_Banff': '',
+      '02-Osaka': '',
+      '03-Chicago_DC_Philadelphia_NYC_Boston': '',
+      '04-London_Barcelona_Venice_Rome': '',
+      '05-Tokyo': '',
+      '06-Osaka_Tokyo': '',
+      '07-Osaka_Sapporo': '',
+      '08-LA': '',
+      'moved-Chicago': '',
+      '09-NYC': '',
+      '10-Hawaii_Seattle': '',
+      '11-Atlanta_Miami': '',
+      '12-LA_OrangeCounty_SanDiego': '',
+      '13-Indiana': '',
+      '14-SanFrancisco_BayArea': '',
+      '15-Tokyo': '',
+      '16-Boston': '',
+      '17-Chicago_Philadelphia': '',
+      '18-Pittsburgh': '',
+      '19-Fukuoka_Osaka_Kyoto_Tokyo_Yokohama_Narita': 'https://open.spotify.com/track/1Myuv6YUjLyOownmZZWnxy?si=2cd4ea1ad2434479',
+    };
+
+    function getSpotifyEmbedUrl(url) {
+      if (!url) return '';
+      const match = url.match(/track\/([a-zA-Z0-9]+)/);
+      if (match) return 'https://open.spotify.com/embed/track/' + match[1] + '?utm_source=generator&theme=0';
+      return '';
+    }
+
+    const videoExts = ['mp4', 'webm', 'mov', 'ogg'];
+    let currentSlide = 0;
+    let currentPhotos = [];
+
+    function isVideo(filepath) {
+      const ext = filepath.split('.').pop().toLowerCase();
+      return videoExts.includes(ext);
+    }
+
+    function buildMediaTag(src) {
+      if (isVideo(src)) {
+        return '<video class="slideshow-img" src="' + src + '" controls playsinline></video>';
+      }
+      return '<img class="slideshow-img" src="' + src + '" alt="Travel photo">';
+    }
+
+    function showSlide(index) {
+      const slideshow = document.getElementById('modal-slideshow');
+      if (currentPhotos.length === 0) return;
+      currentSlide = (index + currentPhotos.length) % currentPhotos.length;
+      const wrapper = slideshow.querySelector('.slideshow-wrapper');
+      const oldMedia = wrapper.querySelector('.slideshow-img');
+      if (oldMedia) {
+        if (oldMedia.tagName === 'VIDEO') oldMedia.pause();
+        oldMedia.remove();
+      }
+      const nextBtn = wrapper.querySelector('.slide-next');
+      nextBtn.insertAdjacentHTML('beforebegin', buildMediaTag(currentPhotos[currentSlide]));
+      const counter = slideshow.querySelector('.slide-counter');
+      if (counter) counter.textContent = (currentSlide + 1) + ' / ' + currentPhotos.length;
+    }
+
+    document.querySelectorAll('.travel-item[data-trip]').forEach(item => {
+      item.style.cursor = 'pointer';
+      item.addEventListener('click', () => {
+        const tripId = item.getAttribute('data-trip');
+        const location = item.querySelector('.travel-location').textContent;
+        const date = item.querySelector('.travel-date').textContent;
+        const modal = document.getElementById('travel-modal');
+        const slideshow = document.getElementById('modal-slideshow');
+        document.getElementById('modal-trip-title').textContent = date + ' — ' + location;
+
+        const photos = travelPhotos[tripId] || [];
+        if (photos.length > 0) {
+          currentPhotos = photos.map(f => 'assets/img/travel/trip-' + tripId + '/' + f);
+          currentSlide = 0;
+          slideshow.innerHTML =
+            '<div class="slideshow-wrapper">' +
+              '<button class="slide-btn slide-prev" onclick="showSlide(currentSlide - 1)">&#10094;</button>' +
+              buildMediaTag(currentPhotos[0]) +
+              '<button class="slide-btn slide-next" onclick="showSlide(currentSlide + 1)">&#10095;</button>' +
+            '</div>' +
+            '<div class="slide-counter">1 / ' + currentPhotos.length + '</div>';
+        } else {
+          currentPhotos = [];
+          slideshow.innerHTML = '<p class="modal-placeholder">📸 No photos yet — add images to <code>assets/img/travel/trip-' + tripId + '/</code> and update the config in about.html</p>';
+        }
+
+        const existingPlayer = document.getElementById('spotify-player');
+        if (existingPlayer) existingPlayer.remove();
+        const spotifyUrl = getSpotifyEmbedUrl(travelSpotify[tripId] || '');
+        if (spotifyUrl) {
+          const playerDiv = document.createElement('div');
+          playerDiv.id = 'spotify-player';
+          playerDiv.innerHTML = '<iframe style="border-radius:8px;" src="' + spotifyUrl + '" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+          const modalContent = document.querySelector('.travel-modal-content');
+          modalContent.appendChild(playerDiv);
+        }
+
+        modal.style.display = 'flex';
+      });
+    });
+
+    function closeModal() {
+      const player = document.getElementById('spotify-player');
+      if (player) player.remove();
+      const video = document.querySelector('.slideshow-img[src]');
+      if (video && video.tagName === 'VIDEO') video.pause();
+      document.getElementById('travel-modal').style.display = 'none';
+    }
+
+    document.querySelector('.travel-modal-close').addEventListener('click', closeModal);
+    document.getElementById('travel-modal').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) closeModal();
+    });
+  </script>
+</body>
+</html>

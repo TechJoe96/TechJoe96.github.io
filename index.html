@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jo Choi — Home</title>
+  <link rel="stylesheet" href="https://pages-themes.github.io/minimal/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="assets/img/profile.JPEG" alt="Jo Choi" class="profile-img"
+           onerror="this.onerror=null; this.src='assets/img/profile.svg';">
+      <h1><a href="index.html">Jo Choi</a></h1>
+      <p data-i18n-html="sidebar.tagline">🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: Efficient AI Systems + Digital Hardware Design</p>
+
+      <button id="dark-mode-toggle" class="dark-toggle" title="Toggle dark mode">
+        <span id="toggle-icon">🌙</span>
+      </button>
+      <button id="lang-toggle" class="lang-toggle" title="Toggle language">한</button>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">Home</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about">About Me</a>
+        <a href="bio.html" class="nav-link" data-i18n="nav.bio">Bio</a>
+        <a href="projects.html" class="nav-link" data-i18n="nav.projects">Projects</a>
+        <a href="others.html" class="nav-link" data-i18n="nav.others">Others</a>
+      </nav>
+
+      <hr>
+
+      <p class="view" style="font-weight: 600; margin-bottom: 4px;" data-i18n="sidebar.resumes">📄 Resumes</p>
+      <p class="view">
+        <a href="assets/docs/Jo_Choi_Resume_AI.pdf" target="_blank" data-i18n="sidebar.resume-ai">Download Resume (AI)</a><br>
+        <a href="assets/docs/Jo_Choi_Resume_EE.pdf" target="_blank" data-i18n="sidebar.resume-ee">Download Resume (EE)</a>
+      </p>
+
+      <hr>
+
+      <p class="view">
+        <a href="https://github.com/TechJoe96">GitHub: TechJoe96</a><br>
+        <a href="https://www.linkedin.com/in/youngjo-choi-477787263/">LinkedIn</a><br>
+        <a href="mailto:yc7330@nyu.edu">yc7330@nyu.edu</a>
+      </p>
+    </header>
+
+    <section>
+      <h1 data-i18n="index.welcome">Welcome!</h1>
+
+      <p data-i18n-html="index.intro">Hi, I'm <strong>Jo Choi (YoungJo Choi)</strong>
+        and I'm a Computer Engineering M.S. student at <strong>New York University</strong>, expected to graduate in May 2026.
+        My work sits at the intersection of <strong>AI/ML</strong> and <strong>hardware design</strong>,
+        from building efficient multimodal models to designing hardware.</p>
+
+      <p data-i18n-html="index.passion">I'm passionate about bridging hardware and software to build efficient, scalable AI systems.</p>
+
+      <hr>
+
+      <h2 data-i18n="index.featured">Featured Projects</h2>
+
+      <div class="featured-grid">
+        <div class="featured-item">
+          <h4 data-i18n="index.feat-vlm-title">Efficient Vision-Language Model</h4>
+          <p data-i18n="index.feat-vlm-desc">Reproduced SparseVLM on LLaVA-1.5-7B, reducing visual tokens by 30% with minimal accuracy loss. Outperformed three weight-pruning baselines on VQAv2.</p>
+          <p><a href="projects.html" data-i18n="index.learn-more">Learn more →</a></p>
+        </div>
+        <div class="featured-item">
+          <h4 data-i18n="index.feat-soc-title">OpenPOWER SoC + NN Accelerator</h4>
+          <p data-i18n="index.feat-soc-desc">FPGA/ASIC-ready INT8 systolic array accelerator for neural network inference on OpenPOWER systems.</p>
+          <p><a href="projects.html" data-i18n="index.learn-more">Learn more →</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2 data-i18n="index.quick-links">Quick Links</h2>
+      <ul>
+        <li><a href="bio.html" data-i18n="index.link-bio">Bio — Education, Experience &amp; Skills</a></li>
+        <li><a href="projects.html" data-i18n="index.link-projects">Projects — AI &amp; Hardware</a></li>
+        <li><a href="others.html" data-i18n="index.link-others">Others — Awards, Leadership &amp; Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p><small data-i18n-html="footer">&copy; 2026 Jo Choi. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</small></p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
+</body>
+</html>
