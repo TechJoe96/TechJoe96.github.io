@@ -254,6 +254,20 @@ const translations = {
     ko: '클린룸 환경에서 전자빔 리소그래피, 심층 반응성 이온 식각(DRIE), 완충 산화물 식각(BOE) 레시피 개발',
   },
 
+  // Parkinson's detector
+  'proj.parkinson-title': {
+    en: 'Real-Time Parkinson\'s Tremor & Dyskinesia Detector',
+    ko: '실시간 파킨슨병 떨림 및 이상운동 감지기',
+  },
+  'proj.parkinson-1': {
+    en: 'Built a real-time embedded system on STM32L475 that detects Parkinson\'s tremor (3–5 Hz) and dyskinesia (5–7 Hz) using accelerometer data and FFT-based frequency analysis',
+    ko: 'STM32L475에서 가속도계 데이터와 FFT 기반 주파수 분석을 활용하여 파킨슨병 떨림(3–5 Hz) 및 이상운동(5–7 Hz)을 감지하는 실시간 임베디드 시스템 구축',
+  },
+  'proj.parkinson-2': {
+    en: 'Implemented a signal processing pipeline (DC offset removal, Hann windowing, 256-point FFT) capturing 156 samples at 52 Hz in 3-second analysis windows with real-time LED feedback',
+    ko: '신호 처리 파이프라인 구현 (DC 오프셋 제거, 한 윈도우, 256포인트 FFT), 52 Hz에서 156개 샘플을 3초 분석 윈도우로 캡처하고 실시간 LED 피드백 제공',
+  },
+
   // ── others.html ──
   'others.title': { en: 'Others', ko: '기타' },
   'others.awards': { en: 'Awards & Scholarships', ko: '수상 & 장학금' },
