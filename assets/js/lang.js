@@ -254,6 +254,20 @@ const translations = {
     ko: '클린룸 환경에서 전자빔 리소그래피, 심층 반응성 이온 식각(DRIE), 완충 산화물 식각(BOE) 레시피 개발',
   },
 
+  // DDR4 Memory Controller
+  'proj.ddr4-title': {
+    en: 'DDR4 Memory Controller',
+    ko: 'DDR4 메모리 컨트롤러',
+  },
+  'proj.ddr4-1': {
+    en: 'Designed a DDR4-2400 SDRAM memory controller from scratch in SystemVerilog with 7 modular RTL blocks: request queue, command scheduler, bank state machines (×16), timing enforcer, data path, refresh controller, and address decoder',
+    ko: 'SystemVerilog로 DDR4-2400 SDRAM 메모리 컨트롤러를 처음부터 설계, 7개 모듈형 RTL 블록 구현: 요청 큐, 명령 스케줄러, 뱅크 상태 머신(×16), 타이밍 엔포서, 데이터 경로, 리프레시 컨트롤러, 주소 디코더',
+  },
+  'proj.ddr4-2': {
+    en: 'Passed all 5 verification tests (single R/W, row hits, row conflicts, bank-group interleaving, multi-bank bursts) with zero timing violations in a behavioral DRAM model',
+    ko: '동작 DRAM 모델에서 타이밍 위반 없이 5개 검증 테스트 전체 통과 (단일 R/W, 로우 히트, 로우 충돌, 뱅크 그룹 인터리빙, 멀티 뱅크 버스트)',
+  },
+
   // Parkinson's detector
   'proj.parkinson-title': {
     en: 'Real-Time Parkinson\'s Tremor & Dyskinesia Detector',
