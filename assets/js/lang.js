@@ -126,6 +126,40 @@ const translations = {
     ko: '21개월 복무 후 병장 및 분대장으로 만기 전역',
   },
   'bio.research': { en: 'Research Experience', ko: '연구 경험' },
+  'bio.grad-ra-title': { en: 'Graduate Research Assistant — sAI Lab @ NYU', ko: '대학원 연구조교 — sAI Lab @ NYU' },
+  'bio.grad-ra-1': {
+    en: 'Developing multimodal AI models that integrate audio, vision, and text inputs for unified reasoning',
+    ko: '오디오, 비전, 텍스트 입력을 통합한 멀티모달 AI 모델 개발',
+  },
+  'bio.grad-ra-2': {
+    en: 'Applying efficient AI techniques — sparse pruning, quantization, and knowledge distillation — to compress models for edge deployment',
+    ko: '효율적 AI 기법(희소 프루닝, 양자화, 지식 증류)을 적용하여 엣지 배포를 위한 모델 압축',
+  },
+  'bio.grad-ra-3': {
+    en: 'Currently building a Cross-modal Sparse Token Selection (CSTS) module and experimenting with feeding its output into pre-trained VLMs to improve downstream accuracy',
+    ko: '현재 Cross-modal Sparse Token Selection (CSTS) 모듈을 개발하고, 사전 학습된 VLM에 출력을 공급하여 하류 정확도 향상 실험 중',
+  },
+  'bio.grad-ra-4': {
+    en: 'Target deployment platform: lightweight AR/VR devices with constrained compute budgets',
+    ko: '배포 목표 플랫폼: 제한된 컴퓨팅 자원의 경량 AR/VR 디바이스',
+  },
+  'bio.ugrad-ra-title': { en: 'Undergraduate Research Assistant — Computer Vision & Multimedia Lab @ IIT', ko: '학부 연구조교 — 컴퓨터비전 & 멀티미디어 연구실 @ IIT' },
+  'bio.ugrad-ra-1': {
+    en: 'Conducted research at the Computer Vision and Multimedia Laboratory (CVM) at Illinois Institute of Technology',
+    ko: '일리노이 공과대학교 컴퓨터비전 및 멀티미디어 연구실(CVM)에서 연구 수행',
+  },
+  'bio.ugrad-ra-2': {
+    en: 'Developed an RNN/LSTM-based multimodal system for predicting mouse behaviors using tri-view 3D visual data (top, front, and side views) combined with audio signals',
+    ko: '3방향 3D 시각 데이터(상단, 정면, 측면)와 오디오 신호를 결합하여 마우스 행동을 예측하는 RNN/LSTM 기반 멀티모달 시스템 개발',
+  },
+  'bio.ugrad-ra-3': {
+    en: 'Leveraged the hypothesis that mice exhibit characteristic motion and vocalization patterns prior to specific behaviors, enabling predictive temporal modeling',
+    ko: '마우스가 특정 행동 전에 특징적인 움직임과 발성 패턴을 보인다는 가설을 활용하여 예측적 시간 모델링 구현',
+  },
+  'bio.ugrad-ra-4': {
+    en: 'Trained and evaluated models using PyTorch with GPU acceleration, achieving 90% behavior classification accuracy across six categories',
+    ko: 'GPU 가속을 활용한 PyTorch로 모델 학습 및 평가, 6개 행동 카테고리에서 90% 분류 정확도 달성',
+  },
   'bio.skills': { en: 'Skills', ko: '기술' },
   'bio.coursework': { en: 'Relevant Coursework', ko: '관련 수업' },
 

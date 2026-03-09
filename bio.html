@@ -127,13 +127,25 @@
         <h2 id="research" data-i18n="bio.research">Research Experience</h2>
 
         <div class="timeline-item">
-          <h3><a href="#" class="course-detail-link" data-course="sai-lab">Research Assistant — sAI Lab @ NYU</a></h3>
+          <h3 data-i18n="bio.grad-ra-title">Graduate Research Assistant — sAI Lab @ NYU</h3>
           <div class="date">Fall 2025 – Present · under Prof. Sai Zhang</div>
+          <ul>
+            <li data-i18n="bio.grad-ra-1">Developing multimodal AI models that integrate audio, vision, and text inputs for unified reasoning</li>
+            <li data-i18n="bio.grad-ra-2">Applying efficient AI techniques — sparse pruning, quantization, and knowledge distillation — to compress models for edge deployment</li>
+            <li data-i18n="bio.grad-ra-3">Currently building a Cross-modal Sparse Token Selection (CSTS) module and experimenting with feeding its output into pre-trained VLMs to improve downstream accuracy</li>
+            <li data-i18n="bio.grad-ra-4">Target deployment platform: lightweight AR/VR devices with constrained compute budgets</li>
+          </ul>
         </div>
 
         <div class="timeline-item">
-          <h3><a href="#" class="course-detail-link" data-course="cv-lab">Research Assistant — Computer Vision and Multimedia Laboratory @ IIT</a></h3>
+          <h3 data-i18n="bio.ugrad-ra-title">Undergraduate Research Assistant — Computer Vision &amp; Multimedia Lab @ IIT</h3>
           <div class="date">Fall 2023 – Spring 2024 · under Prof. Yan Yan</div>
+          <ul>
+            <li data-i18n="bio.ugrad-ra-1">Conducted research at the Computer Vision and Multimedia Laboratory (CVM) at Illinois Institute of Technology</li>
+            <li data-i18n="bio.ugrad-ra-2">Developed an RNN/LSTM-based multimodal system for predicting mouse behaviors using tri-view 3D visual data (top, front, and side views) combined with audio signals</li>
+            <li data-i18n="bio.ugrad-ra-3">Leveraged the hypothesis that mice exhibit characteristic motion and vocalization patterns prior to specific behaviors, enabling predictive temporal modeling</li>
+            <li data-i18n="bio.ugrad-ra-4">Trained and evaluated models using PyTorch with GPU acceleration, achieving 90% behavior classification accuracy across six categories</li>
+          </ul>
         </div>
       </div>
 
@@ -343,16 +355,6 @@
       'efficient-ai': {
         title: 'ECE-GY 9483 — Efficient AI Computing',
         description: 'Explored techniques for making AI models faster and more resource-efficient, including pruning, quantization, knowledge distillation, LoRA, sparsity, and speculative decoding. Studied the co-design of algorithms and hardware to enable efficient deployment of deep learning models on edge devices and accelerators.',
-        image: '',
-      },
-      'sai-lab': {
-        title: 'Research Assistant — sAI Lab @ NYU',
-        description: 'Working under Prof. Sai Zhang on designing efficient Vision-Language Models (VLMs) with sparse techniques. Developing a saliency-based VLM by integrating a Vision Transformer with an LLM through a projection layer, enabling efficient visual token selection and multimodal reasoning.',
-        image: '',
-      },
-      'cv-lab': {
-        title: 'Research Assistant — CV & Multimedia Lab @ IIT',
-        description: 'Worked under Prof. Yan Yan on computer vision research at the Computer Vision and Multimedia Laboratory. Contributed to projects involving visual recognition, image analysis, and multimedia understanding.',
         image: '',
       },
     };
