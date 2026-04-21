@@ -9,7 +9,7 @@ const translations = {
   },
   'nav.home': { en: 'Home', ko: '홈' },
   'nav.about': { en: 'About Me', ko: '소개' },
-  'nav.bio': { en: 'Bio', ko: '이력' },
+  'nav.bio': { en: 'CV', ko: '이력서' },
   'nav.projects': { en: 'Projects', ko: '프로젝트' },
   'nav.others': { en: 'Others', ko: '기타' },
   'sidebar.resumes': { en: '📄 Resumes', ko: '📄 이력서' },
@@ -43,9 +43,9 @@ const translations = {
   },
   'index.learn-more': { en: 'Learn more →', ko: '더 보기 →' },
   'index.quick-links': { en: 'Quick Links', ko: '빠른 링크' },
-  'index.link-bio': { en: 'Bio — Education, Experience & Skills', ko: '이력 — 학력, 경력 & 기술' },
+  'index.link-bio': { en: 'CV — Education, Experience & Skills', ko: '이력서 — 학력, 경력 & 기술' },
   'index.link-projects': { en: 'Projects — AI & Hardware', ko: '프로젝트 — AI & 하드웨어' },
-  'index.link-others': { en: 'Others — Awards, Leadership & Contact', ko: '기타 — 수상, 리더십 & 연락처' },
+  'index.link-others': { en: 'Activities — Awards, Leadership & Contact', ko: '활동 — 수상, 리더십 & 연락처' },
 
   // ── about.html ──
   'about.title': { en: 'About Me', ko: '소개' },
@@ -91,7 +91,7 @@ const translations = {
   },
 
   // ── bio.html ──
-  'bio.title': { en: 'Bio', ko: '이력' },
+  'bio.title': { en: 'Curriculum Vitae', ko: '이력서' },
   'bio.toc-education': { en: 'Education', ko: '학력' },
   'bio.toc-work': { en: 'Work Experience', ko: '경력' },
   'bio.toc-research': { en: 'Research Experience', ko: '연구 경험' },
@@ -111,14 +111,22 @@ const translations = {
     en: 'Ran experiments across amplifiers, diodes, and transistor circuits',
     ko: '증폭기, 다이오드, 트랜지스터 회로 실험 진행',
   },
-  'bio.intern-title': { en: 'Data Analyst Intern — C&B Trading, Seoul, Korea', ko: '데이터 분석 인턴 — C&B Trading, 서울' },
+  'bio.intern-title': { en: 'Data Scientist Intern — C&B Trading, Seoul, Korea', ko: '데이터 사이언티스트 인턴 — C&B Trading, 서울' },
   'bio.intern-1': {
-    en: 'Improved sales forecast accuracy to 90% with a predictive model',
-    ko: '예측 모델로 매출 예측 정확도를 90%로 향상',
+    en: 'Collaborated with sales and operations teams to develop a time-series forecasting model in Python (pandas, scikit-learn) for semiconductor component demand, achieving 90% accuracy and replacing manual spreadsheet estimates',
+    ko: '영업 및 운영팀과 협력하여 Python(pandas, scikit-learn)으로 반도체 부품 수요 시계열 예측 모델을 개발, 90% 정확도 달성 및 수동 스프레드시트 추정 대체',
   },
   'bio.intern-2': {
-    en: 'Built Excel reports and PowerBI dashboards identifying three key process bottlenecks for senior management',
-    ko: '경영진을 위한 Excel 리포트 및 PowerBI 대시보드를 구축하여 3가지 핵심 프로세스 병목 현상 파악',
+    en: 'Automated weekly data consolidation from order records, supplier price sheets, and shipping logs using Python (pandas), reducing analyst prep time by 60%',
+    ko: 'Python(pandas)을 사용하여 주문 기록, 공급업체 가격표, 배송 로그에서 주간 데이터 통합을 자동화, 분석가 준비 시간 60% 단축',
+  },
+  'bio.intern-3': {
+    en: 'Designed interactive Power BI dashboards tracking supplier lead times, inventory turnover, and shipping delays across 3 regions, enabling management to renegotiate terms with 2 underperforming suppliers',
+    ko: '3개 지역의 공급업체 리드타임, 재고 회전율, 배송 지연을 추적하는 인터랙티브 Power BI 대시보드를 설계, 경영진이 실적 부진 공급업체 2곳과 조건 재협상 가능',
+  },
+  'bio.intern-4': {
+    en: 'Analyzed pricing and margin data across 4 product categories, identifying optimal markup ranges that informed quarterly pricing strategy for cross-border transactions',
+    ko: '4개 제품 카테고리의 가격 및 마진 데이터를 분석, 국제 거래를 위한 분기별 가격 전략에 반영된 최적 마크업 범위 도출',
   },
   'bio.military-title': { en: 'Republic of Korea (ROK) Military', ko: '대한민국 군 복무' },
   'bio.military-1': {
@@ -126,6 +134,9 @@ const translations = {
     ko: '21개월 복무 후 병장 및 분대장으로 만기 전역',
   },
   'bio.research': { en: 'Research Experience', ko: '연구 경험' },
+  'bio.activities': { en: 'Activities & Others', ko: '활동 & 기타' },
+  'bio.toc-activities': { en: 'Activities & Others', ko: '활동 & 기타' },
+  'bio.toc-contact': { en: 'Contact', ko: '연락처' },
   'bio.grad-ra-title': { en: 'Graduate Research Assistant — sAI Lab @ NYU', ko: '대학원 연구조교 — sAI Lab @ NYU' },
   'bio.grad-ra-1': {
     en: 'Developing multimodal AI models that integrate audio, vision, and text inputs for unified reasoning',

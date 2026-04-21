@@ -31,10 +31,9 @@
 
       <nav class="site-nav">
         <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
-        <a href="about.html" class="nav-link" data-i18n="nav.about">About Me</a>
-        <a href="bio.html" class="nav-link" data-i18n="nav.bio">Bio</a>
+        <a href="bio.html" class="nav-link" data-i18n="nav.bio">CV</a>
         <a href="projects.html" class="nav-link active" data-i18n="nav.projects">Projects</a>
-        <a href="others.html" class="nav-link" data-i18n="nav.others">Others</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about">About Me</a>
       </nav>
 
       <hr>
@@ -68,9 +67,6 @@
 
       <div class="project-card">
         <h3><a href="#" class="project-detail-link" data-project="gaze-heatmap" data-i18n="proj.gaze-title">Multimodal Gaze Heatmap Prediction from Egocentric Video</a></h3>
-        <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Spring 2026</div>
-        </div>
         <ul>
           <li data-i18n="proj.gaze-1">Predict where a person is looking (gaze heatmap) from egocentric cooking video frames and audio using a lightweight multimodal deep learning model designed for mobile deployment</li>
           <li data-i18n="proj.gaze-2">Built a compact 3.4M-parameter FiLM-based fusion model in PyTorch (~13 MB, ~2 GFLOPs, ~40ms CPU latency), trained on 110K+ samples from EGTEA Gaze+, achieving 7.94 px mean gaze prediction error on a 56×56 heatmap grid</li>
@@ -89,9 +85,6 @@
 
       <div class="project-card">
         <h3><a href="#" class="project-detail-link" data-project="vlm-sparse" data-i18n="proj.vlm-title">Efficient Vision-Language Model (VLM) Design with Sparse Techniques</a></h3>
-        <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2025</div>
-        </div>
         <ul>
           <li data-i18n="proj.vlm-1">Reproduced SparseVLM on LLaVA-1.5-7B, reducing visual tokens by 30% with minimal accuracy loss</li>
           <li data-i18n="proj.vlm-2">Outperformed three weight-pruning baselines on 500 VQAv2 samples</li>
@@ -110,9 +103,6 @@
 
       <div class="project-card">
         <h3><a href="#" class="project-detail-link" data-project="prof-eval" data-i18n="proj.prof-title">Gender Bias &amp; Rating Prediction in Higher Education Evaluations</a></h3>
-        <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2024</div>
-        </div>
         <ul>
           <li data-i18n="proj.prof-1">Analyzed 90K professor records to assess gender bias in student evaluations using nonparametric testing and bootstrap effect size estimation</li>
           <li data-i18n="proj.prof-2">Built Ridge regression and logistic regression pipelines achieving R² = 0.53 for rating prediction and ROC AUC = 0.77 for classification</li>
@@ -134,8 +124,7 @@
       <div class="project-card">
         <h3 data-i18n="proj.sales-title">Sales Forecasting Model</h3>
         <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> June 2024 – August 2024</div>
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> C&amp;B Trading (Internship), Seoul, Korea</div>
+          <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> C&amp;B Trading (Data Scientist Intern), Seoul, Korea</div>
         </div>
         <ul>
           <li data-i18n-html="proj.sales-1">Built a predictive model that improved sales forecast accuracy to <strong>90%</strong></li>
@@ -153,7 +142,6 @@
       <div class="project-card">
         <h3 data-i18n="proj.mouse-title">Mouse Motion Tracker using Deep Learning</h3>
         <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> September 2023 – May 2024</div>
           <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> Illinois Institute of Technology, under Prof. Yan Yan</div>
         </div>
         <ul>
@@ -176,9 +164,6 @@
       <div class="project-card">
         <h3 data-i18n="proj.ddr4-title">DDR4 Memory Controller</h3>
         <a href="https://github.com/TechJoe96/DDR4-Memory-Controller" target="_blank" class="repo-btn">&#9679; GitHub Repo</a>
-        <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Spring 2026</div>
-        </div>
         <ul>
           <li data-i18n="proj.ddr4-1">Designed a DDR4-2400 SDRAM memory controller from scratch in SystemVerilog with 7 modular RTL blocks: request queue, command scheduler, bank state machines (×16), timing enforcer, data path, refresh controller, and address decoder</li>
           <li data-i18n="proj.ddr4-2">Passed all 5 verification tests (single R/W, row hits, row conflicts, bank-group interleaving, multi-bank bursts) with zero timing violations in a behavioral DRAM model</li>
@@ -199,7 +184,6 @@
         <h3 data-i18n="proj.soc-title">OpenPOWER SoC Design with Microwatt CPU and Neural Network Accelerator</h3>
         <a href="https://github.com/TechJoe96/OpenPOWER-HW-Design" target="_blank" class="repo-btn">&#9679; GitHub Repo</a>
         <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Fall 2025</div>
           <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> NYU</div>
         </div>
         <ul>
@@ -222,7 +206,6 @@
       <div class="project-card">
         <h3 data-i18n="proj.nano-title">Superconducting Nanoribbon Device Fabrication</h3>
         <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> March 2025 – August 2025</div>
           <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> NYU Nano Lab, under Prof. Davood Shahrjerdi</div>
         </div>
         <ul>
@@ -242,7 +225,6 @@
         <h3 data-i18n="proj.parkinson-title">Real-Time Parkinson's Tremor &amp; Dyskinesia Detector</h3>
         <a href="https://github.com/TechJoe96/Real-Time-Parkinson-s-Tremor-Dyskinesia-Detector-/tree/main" target="_blank" class="repo-btn">&#9679; GitHub Repo</a>
         <div class="project-meta">
-          <div class="meta-row"><span class="meta-label" data-i18n="meta.date">Date</span> Spring 2025</div>
           <div class="meta-row"><span class="meta-label" data-i18n="meta.location">Location</span> NYU</div>
         </div>
         <ul>
