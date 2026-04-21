@@ -4,8 +4,8 @@
 const translations = {
   // ── Shared sidebar & nav ──
   'sidebar.tagline': {
-    en: '🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: Efficient AI Systems + Digital Hardware Design',
-    ko: '🎓 NYU Tandon – 컴퓨터공학 석사<br>🧠 연구 분야: 효율적 AI 시스템 + 디지털 하드웨어 설계',
+    en: '🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: AI/ML Engineering + VLSI/Chip Design',
+    ko: '🎓 NYU Tandon – 컴퓨터공학 석사<br>🧠 연구 분야: AI/ML 엔지니어링 + VLSI/칩 설계',
   },
   'nav.home': { en: 'Home', ko: '홈' },
   'nav.about': { en: 'About Me', ko: '소개' },
@@ -23,12 +23,12 @@ const translations = {
   // ── index.html ──
   'index.welcome': { en: 'Welcome!', ko: '환영합니다!' },
   'index.intro': {
-    en: 'Hi, I\'m <strong>Jo Choi (YoungJo Choi)</strong> and I\'m a Computer Engineering M.S. student at <strong>New York University</strong>, expected to graduate in May 2026. My work sits at the intersection of <strong>AI/ML</strong> and <strong>hardware design</strong>, from building efficient multimodal models to designing hardware.',
-    ko: '안녕하세요, 저는 <strong>최영조 (Jo Choi)</strong>입니다. <strong>뉴욕대학교 (NYU)</strong> 컴퓨터공학 석사과정에 재학 중이며, 2026년 5월 졸업 예정입니다. <strong>AI/ML</strong>과 <strong>하드웨어 설계</strong>의 교차점에서, 효율적인 멀티모달 모델 구축부터 하드웨어 설계까지 다양한 연구를 하고 있습니다.',
+    en: 'Hi, I\'m <strong>Jo Choi (YoungJo Choi)</strong> and I\'m a Computer Engineering M.S. student at <strong>New York University</strong>, expected to graduate in May 2026. My work sits at the intersection of <strong>AI/ML engineering</strong> and <strong>VLSI/chip design</strong>, from building efficient multimodal models to designing digital hardware at the RTL and silicon level.',
+    ko: '안녕하세요, 저는 <strong>최영조 (Jo Choi)</strong>입니다. <strong>뉴욕대학교 (NYU)</strong> 컴퓨터공학 석사과정에 재학 중이며, 2026년 5월 졸업 예정입니다. <strong>AI/ML 엔지니어링</strong>과 <strong>VLSI/칩 설계</strong>의 교차점에서, 효율적인 멀티모달 모델 구축부터 RTL 및 실리콘 수준의 디지털 하드웨어 설계까지 다양한 연구를 하고 있습니다.',
   },
   'index.passion': {
-    en: 'I\'m passionate about bridging hardware and software to build efficient, scalable AI systems.',
-    ko: '하드웨어와 소프트웨어를 연결하여 효율적이고 확장 가능한 AI 시스템을 구축하는 데 열정을 가지고 있습니다.',
+    en: 'I build AI/ML systems and design the chips to run them.',
+    ko: 'AI/ML 시스템을 구축하고, 이를 구동할 칩을 설계합니다.',
   },
   'index.featured': { en: 'Featured Projects', ko: '주요 프로젝트' },
   'index.feat-vlm-title': { en: 'Efficient Vision-Language Model', ko: '효율적 시각-언어 모델 (VLM)' },
@@ -55,8 +55,8 @@ const translations = {
     ko: '저는 세계에서 가장 기술 중심적인 도시 중 하나인 서울에서 자랐습니다. 2022년에 태평양을 건너 시카고로 이주하여 일리노이 공과대학교(IIT)에서 컴퓨터공학 복수학위를 취득했습니다. 2년 후, NYU Tandon에서 석사 과정을 시작하기 위해 뉴욕으로 이동했으며, 이후로 이 도시의 활기찬 에너지 속에서 성장하고 있습니다.',
   },
   'about.journey-p2': {
-    en: 'My academic passion lies at the intersection of <strong>efficient AI</strong> and <strong>digital hardware design</strong>. I believe the next frontier isn\'t just about building bigger models — it\'s about making them leaner, faster, and more accessible. From designing sparse Vision-Language Models to building neural network accelerators on FPGA/ASIC platforms, I\'m driven by the challenge of co-optimizing across the full stack, from algorithms down to silicon.',
-    ko: '저의 학문적 열정은 <strong>효율적 AI</strong>와 <strong>디지털 하드웨어 설계</strong>의 교차점에 있습니다. 다음 프론티어는 단순히 더 큰 모델을 만드는 것이 아니라, 더 가볍고, 빠르고, 접근 가능하게 만드는 것이라고 믿습니다. 희소 시각-언어 모델 설계부터 FPGA/ASIC 플랫폼에서의 신경망 가속기 구축까지, 알고리즘에서 실리콘까지 전체 스택을 공동 최적화하는 도전에 매진하고 있습니다.',
+    en: 'My academic passion lies at the intersection of <strong>AI/ML engineering</strong> and <strong>VLSI/chip design</strong>. I believe the next frontier isn\'t just about building bigger models — it\'s about making them leaner, faster, and more accessible. Whether it\'s building multimodal AI systems or designing chip-level hardware on FPGA/ASIC platforms, I thrive on solving problems at both ends of the stack.',
+    ko: '저의 학문적 열정은 <strong>AI/ML 엔지니어링</strong>과 <strong>VLSI/칩 설계</strong>의 교차점에 있습니다. 다음 프론티어는 단순히 더 큰 모델을 만드는 것이 아니라, 더 가볍고, 빠르고, 접근 가능하게 만드는 것이라고 믿습니다. 멀티모달 AI 시스템 구축이든 FPGA/ASIC 플랫폼에서의 칩 레벨 하드웨어 설계이든, 스택의 양쪽 끝에서 문제를 해결하는 것에 보람을 느낍니다.',
   },
   'about.beyond-title': { en: '🤝 Beyond the Lab', ko: '🤝 연구실 밖에서' },
   'about.beyond-p1': {
