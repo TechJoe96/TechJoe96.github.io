@@ -4,8 +4,8 @@
 const translations = {
   // ── Shared sidebar & nav ──
   'sidebar.tagline': {
-    en: '🎓 NYU Tandon – MS Computer Engineering<br>🧠 Focus: AI/ML Engineering + VLSI/Chip Design',
-    ko: '🎓 NYU Tandon – 컴퓨터공학 석사<br>🧠 연구 분야: AI/ML 엔지니어링 + VLSI/칩 설계',
+    en: '🎓 NYU – MS Computer Engineering<br>🧠 Focus: AI/ML Engineering + VLSI/Chip Design',
+    ko: '🎓 NYU – 컴퓨터공학 석사<br>🧠 연구 분야: AI/ML 엔지니어링 + VLSI/칩 설계',
   },
   'nav.home': { en: 'Home', ko: '홈' },
   'nav.about': { en: 'About Me', ko: '소개' },
@@ -13,8 +13,8 @@ const translations = {
   'nav.projects': { en: 'Projects', ko: '프로젝트' },
   'nav.others': { en: 'Others', ko: '기타' },
   'sidebar.resumes': { en: '📄 Resumes', ko: '📄 이력서' },
-  'sidebar.resume-ai': { en: 'Download Resume (AI)', ko: '이력서 다운로드 (AI)' },
-  'sidebar.resume-ee': { en: 'Download Resume (EE)', ko: '이력서 다운로드 (EE)' },
+  'sidebar.resume-ai': { en: 'Resume (AI/ML Engineering)', ko: '이력서 다운로드 (AI/ML 엔지니어링)' },
+  'sidebar.resume-ee': { en: 'Resume (Digital VLSI/Chip Design)', ko: '이력서 다운로드 (디지털 VLSI/칩 설계)' },
   'footer': {
     en: '&copy; 2026 Jo Choi. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.',
     ko: '&copy; 2026 Jo Choi. <a href="https://pages.github.com">GitHub Pages</a>에서 호스팅.',
